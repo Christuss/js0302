@@ -1,0 +1,18 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th {
+    background-color: gray;
+}
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+table {
+    width: 100%;
+}
